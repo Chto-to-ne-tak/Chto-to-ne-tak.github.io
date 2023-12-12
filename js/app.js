@@ -20,6 +20,14 @@
 
 // }
 
+let x = prompt("Напишите свое имя")
+alert(`Привет ${x}!`)
+
+function send () {
+    console.log("Вывести сообщение чата")
+
+}
+
 function app () {
     let x = parseInt(document.getElementById('x').value)
     let y = parseInt(document.getElementById('y').value)
